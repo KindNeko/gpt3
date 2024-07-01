@@ -1,0 +1,25 @@
+.possibility {
+  margin: 45px 0 145px;
+}
+
+.possibility__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.possibility__img {
+  width: 546px;
+  height: 607px;
+}
+.possibility__subtext-top {
+  color: #71e5ff;
+}
+.possibility__title {
+  font-size: 34px;
+  line-height: 1.45;
+  font-weight: 700;
+  margin: 10px 0 23px;
+}
+.possibility__description {
+  margin-bottom: 31px;
+}

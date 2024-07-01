@@ -1,0 +1,52 @@
+.header__top {
+  padding: 55px 0 15px;
+}
+
+.header__link {
+  font-weight: 500;
+}
+
+.header__inner {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  grid-gap: 25px;
+}
+.header__title {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 33px;
+}
+
+.header__description {
+  font-size: 20px;
+  margin-bottom: 44px;
+}
+
+.header__email {
+  width: 70%;
+  padding: 26px 0 26px 32px;
+  background-color: #052d56;
+  border: none;
+}
+.header__email::placeholder {
+  color: #3d6184;
+  font-size: 20px;
+  font-weight: 400;
+}
+.header__btn {
+  background-color: #ff4820;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 700;
+  padding: 26px 26px 26px 35px;
+}
+.header__sign-up {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 37px;
+}
+.header__text {
+  font-size: 14px;
+}

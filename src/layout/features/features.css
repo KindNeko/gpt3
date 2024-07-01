@@ -1,0 +1,36 @@
+.features__title-mini {
+  font-size: 18px;
+  max-width: 157px;
+}
+
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+}
+.features__wrapper-text {
+  max-width: 426px;
+}
+
+.features__title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+
+.features__wrapper-content {
+  display: flex;
+  justify-content: space-between;
+}
+.features__description {
+  font-size: 14px;
+  max-width: 334px;
+}
+.features__item:not(:last-child) {
+  margin-bottom: 25px;
+}

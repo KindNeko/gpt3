@@ -1,0 +1,10 @@
+.brand {
+  padding: 78px 0 126px 0;
+}
+
+.brand__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 46px;
+}

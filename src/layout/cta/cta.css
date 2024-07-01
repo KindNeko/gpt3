@@ -1,0 +1,31 @@
+.cta__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--gradient-bar);
+  padding: 46px 37px 26px 46px;
+  border-radius: 5px;
+}
+
+.cta__subtext {
+  font-size: 12px;
+  color: #0e0e0e;
+}
+
+.cta__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.cta__button {
+  width: 189px;
+  height: 59px;
+  border: none;
+  background-color: #000000;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,17 @@
+.menu__list {
+  display: flex;
+  gap: 34px;
+  padding: 0;
+  justify-content: center;
+}
+
+.menu__item:last-child {
+  margin-left: 217px;
+}
+
+.menu__link-sing-up {
+  padding: 16px 45px;
+  background-color: #ff4820;
+  margin-left: 26px;
+  border-radius: 5px;
+}
